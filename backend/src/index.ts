@@ -1,6 +1,8 @@
 import express, { Request, Response } from "express";
 import connectDB from "../config/db";
 import UserRoutes from "../routes/User.Routes";
+import dotenv from "dotenv";
+dotenv.config();
 
 // Create a new express application instance
 const app = express();
